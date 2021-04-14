@@ -24,10 +24,6 @@ a, ul, li {
   padding: 20px;
 }
 
-.chapters {
-    overflow-y: scroll;
-}
-
 .button {
   padding: 15px;
   background-color: blueviolet;
