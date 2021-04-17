@@ -7,13 +7,9 @@ html {
 a, ul, li {
   text-decoration: none;
 }
-
 .wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   padding: 10px;
 }
 
@@ -22,11 +18,8 @@ a, ul, li {
   padding: 10px;
   border-radius: 25px;
 }
-
 .mainContent {
-  -webkit-box-flex: 50%;
-      -ms-flex: 50%;
-          flex: 50%;
+  flex: 50%;
   text-align: center;
   padding: 20px;
 }
@@ -37,17 +30,14 @@ a, ul, li {
   border-radius: 50px;
   color: white;
 }
-
 @media screen and (max-width: 800px) {
   .mainContent {
-    -webkit-box-flex: 100%;
-        -ms-flex: 100%;
-            flex: 100%;
+    flex: 100%;
     max-width: 100%;
   }
+  
   .wrapper img {
-    min-height: 200px;
-    min-width: 50%;
+      min-height: 200px;
+      min-width: 50%;
   }
 }
-/*# sourceMappingURL=style.css.map */
