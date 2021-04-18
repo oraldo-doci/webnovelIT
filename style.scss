@@ -2,6 +2,11 @@ html {
   margin: 20px;
   text-align: center;
   font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a, ul, li {
@@ -13,10 +18,18 @@ a, ul, li {
   padding: 10px;
 }
 
-.wrapper img {
-  width: 50%;
-  padding: 10px;
+
+
+.flexImages{ 
+  width: 300px;
+  height: 400px;
   border-radius: 25px;
+}
+
+.imageLink {
+  max-width: 200px;
+  max-height: 150px;
+  position: relative;
 }
 .mainContent {
   flex: 50%;
@@ -41,3 +54,8 @@ a, ul, li {
       min-width: 50%;
   }
 }
+
+
+
+
+
